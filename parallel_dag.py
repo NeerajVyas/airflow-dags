@@ -11,7 +11,7 @@ default_args = {
 
 def process(p1):
 	print(p1)
-	return 'done'
+	return 'done2'
 
 with DAG(dag_id='parallel_dag', schedule_interval='0 0 * * *', default_args=default_args, catchup=False) as dag:
 
